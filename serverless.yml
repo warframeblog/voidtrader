@@ -9,10 +9,10 @@ service: voidtrader
 provider:
   name: aws
   runtime: nodejs10.x
+  region: eu-west-1
 
 # you can overwrite defaults here
 #  stage: dev
-region: eu-west-1
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
