@@ -12,6 +12,7 @@ provider:
   region: eu-west-1
   environment:
     VOIDTRADER_API_URL: https://api.warframestat.us/
+    GITHUB_TOKEN: ${ssm:GITHUB_TOKEN~true}
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
