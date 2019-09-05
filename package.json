@@ -1,0 +1,29 @@
+{
+  "name": "voidtrader",
+  "version": "1.0.0",
+  "description": "A lambda function that provides the current Void Trader Information which is shown on the \r following page https://warframeblog.com/baro-kiteer-void-trader/",
+  "main": "inventory.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "sls invoke local --function update-inventory",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warframeblog/voidtrader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warframeblog/voidtrader/issues"
+  },
+  "homepage": "https://github.com/warframeblog/voidtrader#readme",
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "axios-mock-adapter": "^1.17.0",
+    "jest": "^24.9.0"
+  }
+}
