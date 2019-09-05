@@ -47,4 +47,4 @@ functions:
   update-inventory:
     handler: inventory.update
     events:
-      - schedule: cron(0,3 13,16 * * 1,6 *)
+      - schedule: cron(0,3 13,16 ? * 1,6 *)
