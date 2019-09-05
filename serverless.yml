@@ -10,9 +10,8 @@ provider:
   name: aws
   runtime: nodejs10.x
   region: eu-west-1
-
-# you can overwrite defaults here
-#  stage: dev
+  environment:
+    VOIDTRADER_API_URL: https://api.warframestat.us/
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
@@ -81,7 +80,3 @@ functions:
 #          conditions:
 #            host: example.com
 #            path: /hello
-
-#    Define function environment variables here
-#    environment:
-#      variable2: value2
