@@ -8,7 +8,7 @@ module.exports.update = async (event) => {
 		const traderData = await getTraderData();
 		// console.log(traderData);
 		const post = await Post.get();
-
+		// console.log(post);
 		await Post.update(post, traderData);
 	} catch (err) {
 		throw err;
