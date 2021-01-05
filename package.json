@@ -26,7 +26,7 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "@octokit/rest": "^16.28.9",
     "gray-matter": "^4.0.2"
   }
